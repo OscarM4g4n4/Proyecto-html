@@ -1,0 +1,72 @@
+/* Estilo para el cuerpo de todas las páginas */
+body {
+  font-family: Arial, sans-serif; /* Agrega una tipografía legible */
+  background-color: #f4f4f4; /* Un color de fondo suave */
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+  color: #0056b3; /* Un color azul para los títulos */
+}
+
+/* Estilo para la imagen en la página del personaje */
+.foto-personaje {
+  float: right; /* Muestra la imagen a la derecha del texto */
+  margin-left: 20px;
+  border: 3px solid #ddd; /* Agrega un borde a la imagen */
+  border-radius: 5px;
+}
+
+/* Estilos para la tabla de horario */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center; /* Alineación de texto centrada */
+}
+
+thead {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+  margin-top: 20px;
+}
+form label {
+  display: block; /* Hace que las etiquetas ocupen su propia línea */
+  margin-bottom: 5px;
+  font-weight: bold; /* Texto en negritas */
+}
+form input, form textarea, form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
